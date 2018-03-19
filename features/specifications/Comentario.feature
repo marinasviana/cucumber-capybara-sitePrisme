@@ -7,7 +7,8 @@ Funcionalidade: Enviar um comentário sobre uma matéria
 
   Contexto: Formulário para envio de um comentário
     Dado que eu esteja na página de Formulário para envio de um comentário
-
+  
+  
   Cenário: Preencher o formulário corretamente
     A partir da tela de cadastro
     O usuário deve poder realizar um cadastro

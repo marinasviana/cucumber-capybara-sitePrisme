@@ -7,7 +7,8 @@ Dado("que o usuário informe seu nome") do
     @cadastros.informar_nomes("marina")
 end
 
-Dado("informa outros dados pessoais se desejar") do
+Dado("que o usuário informe todos os dados solicitados na tela de cadastro") do
+  @cadastros.informar_nomes("marina")
   @cadastros.informar_estado("Pernambuco")
   @cadastros.genero("Feminino")
   

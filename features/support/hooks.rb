@@ -17,6 +17,9 @@ Before do |scenario|
   end
 end
 
+Before '@marina' do
+  puts 'teste before antes de um cenario especifico'
+end
 After do |scenario|
   @helper = Helper.new
   ## take screenshot if scenario fail
