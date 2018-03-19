@@ -4,3 +4,12 @@ Este projeto é um exemplo de teste automatizado para o site: https://classedete
 E sua arquitetura foi baseada no projeto:
 (https://circleci.com/gh/samycici/cucumber-capybara-site_prism)
 
+
+
+#############################################################################
+
+## Run
+
+# Executando os testes em DEV usando Chrome Headless 
+cucumber -p chrome_headless -p dev
+

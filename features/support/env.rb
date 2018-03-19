@@ -19,6 +19,15 @@ Capybara.register_driver :selenium do |app|
       }
     )
   )
+  elsif BROWSER.eql?('chrome_headless')
+    capabilities = Selenium::WebDriver::Remote::Capabilities.chrome(
+    chromeOptions: { args: %w(headless disable-gpu) }
+  )
+
+  Capybara::Selenium::Driver.new app,
+    browser: :chrome,
+    desired_capabilities: capabilities
+
   elsif BROWSER.eql?('firefox')
     Capybara::Selenium::Driver.new(app, :browser => :firefox)
   elsif BROWSER.eql?('internet_explorer')
