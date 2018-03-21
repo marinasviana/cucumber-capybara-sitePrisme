@@ -10,11 +10,11 @@ Funcionalidade: Enviar um comentário sobre uma matéria
   
   
   Cenário: Enviar Comentário com sucesso
-    A partir da tela de cadastro
+    A partir da tela de feed de notícias
     O usuário deve poder enviar um comentário
     Com os seus dados pessoais
 
-    Dado que o usuário informe os dados pessoais solicitados na tela de cadastro
+    Dado que o usuário informe os dados pessoais solicitados na tela de comentário
     E informe seu comentário
-    Quando o usuário clica em Enviar
+    Quando o usuário clicar em Enviar
     Então ele deve ser redirecionado para a página de mensagem enviada

@@ -14,7 +14,7 @@ Dado("que o usuário informe todos os dados solicitados na tela de cadastro") do
   
 end
 
-Quando("o usuário clica em Enviar Cadastro") do
+Quando("o usuário clicar em Enviar Cadastro") do
   @cadastros.envia_cadastro()
   @cadastro_concluido = ResultadoBusca.new
 end

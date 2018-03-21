@@ -1,6 +1,6 @@
 # language: pt
 
-Funcionalidade: Realizar um cadastro
+Funcionalidade: Confirmar presença
   Para ter acesso a um evento presencial,
   Como um organizador do evento,
   Quero que os participantes confirmem sua presença no site do evento
@@ -14,7 +14,7 @@ Funcionalidade: Realizar um cadastro
     Com o seu nome
 
     Dado que o usuário informe seu nome
-    Quando o usuário clica em Enviar Cadastro
+    Quando o usuário clicar em Enviar Cadastro
     Então ele deve ser redirecionado para a página de Cadastro concluído 
   
   Cenário: Preencher o cadastro completo com sucesso
@@ -23,5 +23,5 @@ Funcionalidade: Realizar um cadastro
     Com os seus dados pessoais
 
     Dado que o usuário informe todos os dados solicitados na tela de cadastro
-    Quando o usuário clica em Enviar Cadastro
+    Quando o usuário clicar em Enviar Cadastro
     Então ele deve ser redirecionado para a página de Cadastro concluído

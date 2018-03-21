@@ -4,7 +4,7 @@ Dado (/^que o usuário esteja na página de Formulário para envio de um coment�
   @cadastro.visit(CONFIG['url'])
 end
 
-Dado("que o usuário informe os dados pessoais solicitados na tela de cadastro") do
+Dado("que o usuário informe os dados pessoais solicitados na tela de comentário") do
   @cadastro.informar_nome(CONFIG['nome'])
   @cadastro.informar_email(CONFIG['email'])
   @cadastro.informar_website(CONFIG['website'])
@@ -16,7 +16,7 @@ end
 
 ###### Quando #####
 
-Quando("o usuário clica em Enviar") do 
+Quando("o usuário clicar em Enviar") do 
   @cadastro.enviar()
   @cadastro_concluido = ResultadoBusca.new
 end
