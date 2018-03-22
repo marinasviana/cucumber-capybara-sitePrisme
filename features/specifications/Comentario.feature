@@ -6,7 +6,7 @@ Funcionalidade: Enviar um comentário sobre uma matéria
   Quero enviar meu comentário
 
   Contexto: Formulário para envio de um comentário
-    Dado que o usuário esteja na página de Formulário para envio de um comentário
+    Dado que o usuário esteja na página para envio de um comentário
   
   
   Cenário: Enviar Comentário com sucesso

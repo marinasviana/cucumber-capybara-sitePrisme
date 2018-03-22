@@ -1,6 +1,6 @@
-# encoding: utf-8
 # !/usr/bin/env ruby
 
+# pagina de comentario
 class Comentario < SitePrism::Page
   element :nome, '#g9-nome'
   element :email, '#g9-email'
@@ -9,10 +9,10 @@ class Comentario < SitePrism::Page
   element :envian_btn, '.pushbutton-wide'
 
   def informar_nome(nome_usuario)
-    nome.set nome_usuario  
+    nome.set nome_usuario
   end
 
-  def informar_email( email_usuario )
+  def informar_email(email_usuario)
     email.set email_usuario
   end
 
@@ -24,7 +24,7 @@ class Comentario < SitePrism::Page
     comentarioNews.set comentario_usuario
   end
 
-  def enviar()
-    envian_btn.click()
+  def enviar
+    envian_btn.click
   end
 end
