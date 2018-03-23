@@ -13,3 +13,6 @@ E sua arquitetura foi baseada no projeto:
 # Executando os testes em DEV usando Chrome Headless 
 cucumber -p chrome_headless -p dev
 
+#############################################################################
+## run rubocop
+rubocop --auto-gen-config
