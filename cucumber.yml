@@ -10,3 +10,9 @@ safari: BROWSER=safari
 chrome_headless: BROWSER=chrome_headless
 dev: ENVIRONMENT_TYPE=dev
 hmg: ENVIRONMENT_TYPE=hmg
+
+
+default: --format pretty -p html
+ci: --format -p json
+json: --format json --out=features.json
+html: --format html --out=features.html

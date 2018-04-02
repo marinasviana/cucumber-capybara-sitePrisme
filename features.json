@@ -1,0 +1,375 @@
+[
+  {
+    "uri": "features/specifications/Cadastro.feature",
+    "id": "confirmar-presença",
+    "keyword": "Funcionalidade",
+    "name": "Confirmar presença",
+    "description": "  Para ter acesso a um evento presencial,\n  Como um organizador do evento,\n  Quero que os participantes confirmem sua presença no site do evento",
+    "line": 3,
+    "elements": [
+      {
+        "keyword": "Contexto",
+        "name": "Home de Cadastro",
+        "description": "",
+        "line": 8,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:3"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `browser' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:17:in `Before'",
+              "duration": 499000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário esteja na home de cadastro",
+            "line": 9,
+            "match": {
+              "location": "features/steps_definitions/cadastro_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "confirmar-presença;preencher-o-cadastro-simples-com-sucesso",
+        "keyword": "Cenário",
+        "name": "Preencher o cadastro simples com sucesso",
+        "description": "    A partir da tela de cadastro\n    O usuário deve poder realizar um cadastro \n    Com o seu nome",
+        "line": 11,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário informe seu nome",
+            "line": 16,
+            "match": {
+              "location": "features/steps_definitions/cadastro_steps.rb:6"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "o usuário clicar em Enviar Cadastro",
+            "line": 17,
+            "match": {
+              "location": "features/steps_definitions/cadastro_steps.rb:16"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "ele deve ser redirecionado para a página de Cadastro concluído",
+            "line": 18,
+            "match": {
+              "location": "features/steps_definitions/cadastro_steps.rb:21"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:24"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `browser' for nil:NilClass (NoMethodError)\n./features/support/helper.rb:18:in `take_screenshot'\n./features/support/hooks.rb:28:in `After'",
+              "duration": 171000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Contexto",
+        "name": "Home de Cadastro",
+        "description": "",
+        "line": 8,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:3"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `browser' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:17:in `Before'",
+              "duration": 385000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário esteja na home de cadastro",
+            "line": 9,
+            "match": {
+              "location": "features/steps_definitions/cadastro_steps.rb:1"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "confirmar-presença;preencher-o-cadastro-completo-com-sucesso",
+        "keyword": "Cenário",
+        "name": "Preencher o cadastro completo com sucesso",
+        "description": "    A partir da tela de cadastro\n    O usuário deve poder realizar um cadastro\n    Com os seus dados pessoais",
+        "line": 20,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário informe todos os dados solicitados na tela de cadastro",
+            "line": 25,
+            "match": {
+              "location": "features/steps_definitions/cadastro_steps.rb:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "o usuário clicar em Enviar Cadastro",
+            "line": 26,
+            "match": {
+              "location": "features/steps_definitions/cadastro_steps.rb:16"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "ele deve ser redirecionado para a página de Cadastro concluído",
+            "line": 27,
+            "match": {
+              "location": "features/steps_definitions/cadastro_steps.rb:21"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:24"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `browser' for nil:NilClass (NoMethodError)\n./features/support/helper.rb:18:in `take_screenshot'\n./features/support/hooks.rb:28:in `After'",
+              "duration": 133000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/specifications/Comentario.feature",
+    "id": "enviar-um-comentário-sobre-uma-matéria",
+    "keyword": "Funcionalidade",
+    "name": "Enviar um comentário sobre uma matéria",
+    "description": "  Para enviar a opinião sobre uma matéria do jornal,\n  Como um leitor,\n  Quero enviar meu comentário",
+    "line": 3,
+    "elements": [
+      {
+        "keyword": "Contexto",
+        "name": "Formulário para envio de um comentário",
+        "description": "",
+        "line": 8,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:3"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `browser' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:17:in `Before'",
+              "duration": 382000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário esteja na página para envio de um comentário",
+            "line": 9,
+            "match": {
+              "location": "features/steps_definitions/comentario_steps.rb:3"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "enviar-um-comentário-sobre-uma-matéria;enviar-comentário-com-sucesso",
+        "keyword": "Cenário",
+        "name": "Enviar Comentário com sucesso",
+        "description": "    A partir da tela de feed de notícias\n    O usuário deve poder enviar um comentário\n    Com os seus dados pessoais",
+        "line": 12,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que o usuário informe os dados pessoais solicitados na tela de comentário",
+            "line": 17,
+            "match": {
+              "location": "features/steps_definitions/comentario_steps.rb:8"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "informe seu comentário",
+            "line": 18,
+            "match": {
+              "location": "features/steps_definitions/comentario_steps.rb:14"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "o usuário clicar em Enviar",
+            "line": 19,
+            "match": {
+              "location": "features/steps_definitions/comentario_steps.rb:20"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "ele deve ser redirecionado para a página de mensagem enviada",
+            "line": 20,
+            "match": {
+              "location": "features/steps_definitions/comentario_steps.rb:27"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:24"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "undefined method `browser' for nil:NilClass (NoMethodError)\n./features/support/helper.rb:18:in `take_screenshot'\n./features/support/hooks.rb:28:in `After'",
+              "duration": 223000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
