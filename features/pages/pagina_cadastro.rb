@@ -5,7 +5,7 @@ class Cadastro < SitePrism::Page
   element :nome, '#g22-nome'
   element :estado, "select[id='g22-estado']"
   element :envian_btn, '.pushbutton-wide'
-  section :menu, MenuSection, '.menu'
+  section :menu, MenuSection, '#menu-menu-principal'
 
   def informar_nomes(nome_usuario)
     nome.set nome_usuario
