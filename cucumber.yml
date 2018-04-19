@@ -1,9 +1,10 @@
 ##YAML Template
 ---
 default: -p html_report -p chrome -p dev
-html_report: --format html --out=teste/oi.html
+html_report: --format html --out=teste/features.html
+json_report: --format json --out=teste/features.json
 pretty: --format pretty 
-ci_html: --format progress
+ci: --format progress
 firefox: BROWSER=firefox
 chrome: BROWSER=chrome
 poltergeist: BROWSER=poltergeist
@@ -13,6 +14,4 @@ chrome_headless: BROWSER=chrome_headless
 dev: ENVIRONMENT_TYPE=dev
 hmg: ENVIRONMENT_TYPE=hmg
 
-
-ci_json: --format json --out=features.json
 
