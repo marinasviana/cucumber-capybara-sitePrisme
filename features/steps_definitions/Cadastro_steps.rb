@@ -1,7 +1,6 @@
 Dado('que o usuário esteja na home de cadastro') do
   @cadastros = Cadastro.new
   @cadastros.visit(CONFIG['urlCad'])
-  @cadastros.wait_for_menu(10)
   @cadastros.menu.formularioCompleto
 end
 
