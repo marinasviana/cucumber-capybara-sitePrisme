@@ -1,7 +1,7 @@
 ##YAML Template
 ---
 default: -p html_report -p chrome -p dev
-html_report: --format html --out=teste/features.html
+html_report: --format html --out=teste/oi.html
 pretty: --format pretty 
 ci_html: --format progress
 firefox: BROWSER=firefox
