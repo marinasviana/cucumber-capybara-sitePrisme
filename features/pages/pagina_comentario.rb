@@ -7,6 +7,7 @@ class Comentario < SitePrism::Page
   element :website, '#g9-website'
   element :comentarioNews, '#contact-form-comment-g9-comentrio'
   element :envian_btn, '.pushbutton-wide'
+  section :menu, MenuSection, '#menu-menu-principal'
 
   def informar_nome(nome_usuario)
     nome.set nome_usuario

@@ -20,7 +20,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 27000
+              "duration": 23000
             }
           },
           {
@@ -29,7 +29,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 9000
+              "duration": 10000
             }
           },
           {
@@ -37,9 +37,8 @@
               "location": "features/support/hooks.rb:3"
             },
             "result": {
-              "status": "failed",
-              "error_message": "undefined method `browser' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:17:in `Before'",
-              "duration": 499000
+              "status": "passed",
+              "duration": 1119310000
             }
           }
         ],
@@ -52,7 +51,9 @@
               "location": "features/steps_definitions/cadastro_steps.rb:1"
             },
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "error_message": "Unable to find visible css \"#menu-menu-principal\" (Capybara::ElementNotFound)\n./features/steps_definitions/cadastro_steps.rb:4:in `\"que o usuário esteja na home de cadastro\"'\nfeatures/specifications/Cadastro.feature:9:in `Dado que o usuário esteja na home de cadastro'",
+              "duration": 62782715000
             }
           }
         ]
@@ -70,7 +71,7 @@
             "name": "que o usuário informe seu nome",
             "line": 16,
             "match": {
-              "location": "features/steps_definitions/cadastro_steps.rb:6"
+              "location": "features/steps_definitions/cadastro_steps.rb:7"
             },
             "result": {
               "status": "skipped"
@@ -81,7 +82,7 @@
             "name": "o usuário clicar em Enviar Cadastro",
             "line": 17,
             "match": {
-              "location": "features/steps_definitions/cadastro_steps.rb:16"
+              "location": "features/steps_definitions/cadastro_steps.rb:17"
             },
             "result": {
               "status": "skipped"
@@ -92,7 +93,7 @@
             "name": "ele deve ser redirecionado para a página de Cadastro concluído",
             "line": 18,
             "match": {
-              "location": "features/steps_definitions/cadastro_steps.rb:21"
+              "location": "features/steps_definitions/cadastro_steps.rb:22"
             },
             "result": {
               "status": "skipped"
@@ -105,9 +106,8 @@
               "location": "features/support/hooks.rb:24"
             },
             "result": {
-              "status": "failed",
-              "error_message": "undefined method `browser' for nil:NilClass (NoMethodError)\n./features/support/helper.rb:18:in `take_screenshot'\n./features/support/hooks.rb:28:in `After'",
-              "duration": 171000
+              "status": "passed",
+              "duration": 570941000
             }
           },
           {
@@ -116,7 +116,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17000
+              "duration": 48000
             }
           }
         ]
@@ -134,7 +134,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14000
+              "duration": 25000
             }
           },
           {
@@ -143,7 +143,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8000
+              "duration": 12000
             }
           },
           {
@@ -151,9 +151,8 @@
               "location": "features/support/hooks.rb:3"
             },
             "result": {
-              "status": "failed",
-              "error_message": "undefined method `browser' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:17:in `Before'",
-              "duration": 385000
+              "status": "passed",
+              "duration": 884047000
             }
           }
         ],
@@ -166,7 +165,9 @@
               "location": "features/steps_definitions/cadastro_steps.rb:1"
             },
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "error_message": "Unable to find visible css \"#menu-menu-principal\" (Capybara::ElementNotFound)\n./features/steps_definitions/cadastro_steps.rb:4:in `\"que o usuário esteja na home de cadastro\"'\nfeatures/specifications/Cadastro.feature:9:in `Dado que o usuário esteja na home de cadastro'",
+              "duration": 62431306000
             }
           }
         ]
@@ -184,7 +185,7 @@
             "name": "que o usuário informe todos os dados solicitados na tela de cadastro",
             "line": 25,
             "match": {
-              "location": "features/steps_definitions/cadastro_steps.rb:10"
+              "location": "features/steps_definitions/cadastro_steps.rb:11"
             },
             "result": {
               "status": "skipped"
@@ -195,7 +196,7 @@
             "name": "o usuário clicar em Enviar Cadastro",
             "line": 26,
             "match": {
-              "location": "features/steps_definitions/cadastro_steps.rb:16"
+              "location": "features/steps_definitions/cadastro_steps.rb:17"
             },
             "result": {
               "status": "skipped"
@@ -206,7 +207,7 @@
             "name": "ele deve ser redirecionado para a página de Cadastro concluído",
             "line": 27,
             "match": {
-              "location": "features/steps_definitions/cadastro_steps.rb:21"
+              "location": "features/steps_definitions/cadastro_steps.rb:22"
             },
             "result": {
               "status": "skipped"
@@ -219,9 +220,8 @@
               "location": "features/support/hooks.rb:24"
             },
             "result": {
-              "status": "failed",
-              "error_message": "undefined method `browser' for nil:NilClass (NoMethodError)\n./features/support/helper.rb:18:in `take_screenshot'\n./features/support/hooks.rb:28:in `After'",
-              "duration": 133000
+              "status": "passed",
+              "duration": 517093000
             }
           },
           {
@@ -230,7 +230,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 21000
+              "duration": 35000
             }
           }
         ]
@@ -258,7 +258,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12000
+              "duration": 24000
             }
           },
           {
@@ -267,7 +267,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7000
+              "duration": 12000
             }
           },
           {
@@ -275,9 +275,8 @@
               "location": "features/support/hooks.rb:3"
             },
             "result": {
-              "status": "failed",
-              "error_message": "undefined method `browser' for nil:NilClass (NoMethodError)\n./features/support/hooks.rb:17:in `Before'",
-              "duration": 382000
+              "status": "passed",
+              "duration": 595010000
             }
           }
         ],
@@ -290,7 +289,8 @@
               "location": "features/steps_definitions/comentario_steps.rb:3"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2056410000
             }
           }
         ]
@@ -311,7 +311,8 @@
               "location": "features/steps_definitions/comentario_steps.rb:8"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 495917000
             }
           },
           {
@@ -322,7 +323,8 @@
               "location": "features/steps_definitions/comentario_steps.rb:14"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 72944000
             }
           },
           {
@@ -333,7 +335,8 @@
               "location": "features/steps_definitions/comentario_steps.rb:20"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1916647000
             }
           },
           {
@@ -344,7 +347,8 @@
               "location": "features/steps_definitions/comentario_steps.rb:27"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 34372000
             }
           }
         ],
@@ -354,9 +358,8 @@
               "location": "features/support/hooks.rb:24"
             },
             "result": {
-              "status": "failed",
-              "error_message": "undefined method `browser' for nil:NilClass (NoMethodError)\n./features/support/helper.rb:18:in `take_screenshot'\n./features/support/hooks.rb:28:in `After'",
-              "duration": 223000
+              "status": "passed",
+              "duration": 159983000
             }
           },
           {
@@ -365,7 +368,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 30000
+              "duration": 70000
             }
           }
         ]

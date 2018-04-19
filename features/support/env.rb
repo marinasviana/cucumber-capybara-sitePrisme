@@ -20,7 +20,7 @@ Capybara.register_driver :selenium do |app|
     )
   )
   elsif BROWSER.eql?('chrome_headless')
-    capabilities = Selenium::WebDriver::Remote::Capabilities.chrome(chromeOptions: { args: %w(headless disable-gpu) })
+    capabilities = Selenium::WebDriver::Remote::Capabilities.chrome(chromeOptions: { 'args' => ['headless', 'disable-gpu', '--disable-infobars', 'window-size=1600,1024'] })
   Capybara::Selenium::Driver.new app,
     browser: :chrome,
     desired_capabilities: capabilities

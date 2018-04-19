@@ -13,6 +13,7 @@ E sua arquitetura foi baseada no projeto:
 # Executando os testes em DEV usando Chrome Headless 
 cucumber -p chrome_headless -p dev
 cucumber -p chrome_headless -p dev --format html --out report.html
+cucumber -p chrome_headless -p dev --format json --out=teste/features.json -p dev --format html --out teste/features.html
 cucumber -p chrome_headless -p dev -p ci
 
 #############################################################################
